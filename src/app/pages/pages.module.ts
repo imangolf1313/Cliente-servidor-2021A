@@ -5,6 +5,8 @@ import { ContactComponent } from './contact/contact.component';
 import { DeshboardComponent } from './deshboard/deshboard.component';
 import { HomeComponent } from './home/home.component';
 import { NotfountComponent } from './notfount/notfount.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { ObservableComponent } from './observable/observable.component';
 
 
 
@@ -15,7 +17,9 @@ import { NotfountComponent } from './notfount/notfount.component';
     ContactComponent,
     DeshboardComponent,
     HomeComponent,
-    NotfountComponent
+    NotfountComponent,
+    PromesasComponent,
+    ObservableComponent
   ],
   exports:[
     AboutComponent,
