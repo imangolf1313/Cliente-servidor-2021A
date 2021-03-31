@@ -9,6 +9,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { PagesModule } from './pages/pages.module';
 import { AuthModule } from './auth/auth.module';
 import { PagesComponent } from './pages/pages.component';
+import { UsuariosComponent } from './pages/usuarios/usuarios/usuarios.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { PagesComponent } from './pages/pages.component';
     HeaderComponent,
     FooterComponent,
     BreadcrumbsComponent,
-    PagesComponent
+    PagesComponent,
+    UsuariosComponent
    
   ],
   imports: [

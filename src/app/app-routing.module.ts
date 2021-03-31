@@ -10,6 +10,8 @@ import { NotfountComponent } from './pages/notfount/notfount.component';
 import { ObservableComponent } from './pages/observable/observable.component';
 import { PagesComponent } from './pages/pages.component';
 import { PromesasComponent } from './pages/promesas/promesas.component';
+import { UsuariosComponent } from './pages/usuarios/usuarios/usuarios.component';
+
 
 const routes:Routes=[
 { path: '', 
@@ -21,6 +23,7 @@ children:[
   { path: 'home', component: HomeComponent },
   { path: 'promesa', component: PromesasComponent },
   { path: 'observable', component: ObservableComponent },
+  {path: 'usuarios', component: UsuariosComponent},
   { path: '', pathMatch: 'full', redirectTo: '/home' }
 ]
 },  
