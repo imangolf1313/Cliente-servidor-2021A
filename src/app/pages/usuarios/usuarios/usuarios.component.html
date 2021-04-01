@@ -1,14 +1,20 @@
-<section *ngFor="let usuario of usuarios">
-    <img src="https://nestjs-app.herokuapp.com/{{usuario.avatar}}" alt="avatar" height="200"
-    width= "200"
-    style="  background-repeat: no-repeat;
-    background-position: 50%;
-    border-radius: 50%;
-    background-size: 100% auto;
-    float: left;"
+<section *ngFor="let usuario of usuarios" style=" margin: 10px;">
+
+    <img src="https://nestjs-app.herokuapp.com/{{usuario.avatar}}" 
+        alt="avatar" 
+        height="100"
+        width= "100"
+        style="  background-repeat: no-repeat;
+        background-position: 50%;
+        border-radius: 50%;
+        background-size: 100% auto;
+        margin-right: 15px;
+        float: left;"
     
     />
+    
     <h5> {{usuario.nombre}}</h5>
     <h6>Apellido: {{usuario.apellido}}</h6>
     <p>Edad: {{usuario.edad}}</p>
+    
 </section >

@@ -21,6 +21,10 @@ export class MenuService {
         {
           titulo: "Dashboard",
           url: "/deshboard"
+        },
+        {
+          titulo: "Usuarios",
+          url: "/usuarios"
         }
       ]
     }
